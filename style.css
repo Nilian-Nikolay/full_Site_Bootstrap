@@ -1,0 +1,26 @@
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* предотвратит горизонтальный скролл на странице */
+    margin: 0;
+    padding: 0;
+    background-color: #ececec;
+}
+
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-transparent {
+    background-color: transparent !important;
+    transition: background-color 1s ease;
+}
+.navbar-dark {
+    transition: background-color 0.7s ease; 
+}
+
